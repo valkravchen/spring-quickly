@@ -7,9 +7,8 @@ import services.CommentService;
 public class Main {
     static void main() {
         var c = new AnnotationConfigApplicationContext(ProjectConfig.class);
-        var cs1 = c.getBean("commentService", CommentService.class);
-        var cs2 = c.getBean("commentService", CommentService.class);
-        boolean b1 = cs1 == cs2;
-        System.out.println(b1);
+        System.out.println("Перед получением доступа к CommentService");
+        var service = c.getBean(CommentService.class);
+        System.out.println("После получения CommentService");
     }
 }
