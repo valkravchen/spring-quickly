@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.dobrynya</groupId>
-    <artifactId>sq-ch8-ex4</artifactId>
+    <artifactId>sq-ch8-ex5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
